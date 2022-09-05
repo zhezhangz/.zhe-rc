@@ -1,0 +1,23 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Zhe Zhang
+#	email = zhezhang@thoughtworks.com
+[user]
+	name = Zhe Zhang
+	email = zhezhang@thoughtworks.com
+[core]
+	editor = emacs -q
+	excludesfile = /Users/zhezhang/.gitignore
+	hooksPath = /Users/zhezhang/.git/hooks
+[alias]
+	ci = commit
+	st = status
+	co = checkout
+	change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f"
+[http]
+	sslVerify = false
+[init]
+	defaultBranch = master
+[gpg]
+	program = gpg
