@@ -4,7 +4,7 @@
 	email = zhezhang@thoughtworks.com
 [core]
 	editor = emacs -q
-	excludesfile = /Users/zhezhang/.gitignore
+#	excludesfile = /Users/zhezhang/.gitignore
 	hooksPath = /Users/zhezhang/.git/hooks
 [http]
 	sslVerify = false
