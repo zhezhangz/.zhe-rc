@@ -1,0 +1,8 @@
+# Zhe's useful alias
+
+alias myip='curl https://ipecho.net/plain; echo'
+alias mkcd='foo(){ mkdir -p "$1"; cd "$1" }; foo '
+alias iji="idea ."
+alias cdd="cd -"
+alias pb="pbcopy"
+
