@@ -36,3 +36,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 export PATH="/opt/homebrew/bin:$PATH"
+
+# jenv init
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+jenv enable-plugin export > /dev/null
+
