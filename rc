@@ -42,3 +42,4 @@ export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 jenv enable-plugin export > /dev/null
 
+export PATH="$HOME/.local/bin:$PATH"
